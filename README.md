@@ -46,6 +46,7 @@ To run the notebooks, you will need to install the dependencies (in a dedicated 
 
 All the code files are provided as notebooks. Those labeled with "Explo" focus on data exploration, visualization, and preprocessing. Notebooks labeled with "Modelling" cover various modeling techniques, including:
 - SVM on features computed on the ECG signal with the module catc22
+- XgBoost on raw signals
 - ANN: neural network
 - CNN: convolutional network
 
@@ -87,7 +88,7 @@ this outputs a heartbeat_model.pkl under the models folder saved with joblib.
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │   └── build_features.py
-     │   ├── balance       <- Scripts to get a balanced dataset
+    │   ├── balance       <- Scripts to get a balanced dataset
     │   │   └── load_balanced.py
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
@@ -99,5 +100,9 @@ this outputs a heartbeat_model.pkl under the models folder saved with joblib.
     │   │   └── visualize.py
 
 --------
+## Demo
+
+https://avr24cdsheartbeat.streamlit.app/
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
