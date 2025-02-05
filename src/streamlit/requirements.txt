@@ -1,4 +1,4 @@
-pandas==2.2.2
+pandas==2.2.3
 matplotlib
 seaborn
 numpy
@@ -10,3 +10,7 @@ scipy
 torch==2.5.1
 torch-summary==1.4.5
 torchvision==0.20.1
+plotly
+wfdb==4.2.0
+urllib3
+scipy
